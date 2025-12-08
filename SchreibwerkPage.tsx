@@ -49,7 +49,7 @@ const STEPS = [
   {
     step: 5,
     title: "Reflexion & Fit",
-    text: "Sicherheit, Feinschliff, Abgabefit.",
+    text: "Sicherheit, Feinschliff und Reflexion.",
   },
   {
     step: 6,
@@ -144,7 +144,7 @@ function ContactView({ onBack }: any) {
 
         {status === "success" && (
           <p className="text-green-700 bg-green-100 p-3 rounded-xl mt-3">
-            Danke! Deine Nachricht wurde gesendet.
+            Danke! Deine Nachricht wurde gesendet. Ich melde mich in der Regel in den nächsten 24 Stunden. Viele Grüße Max
           </p>
         )}
 
@@ -164,10 +164,9 @@ function ContactView({ onBack }: any) {
 /* ============================================================================
    Impressum
 ============================================================================ */
-
 function Impressum({ onBack }: any) {
   return (
-    <main className="max-w-2xl mx-auto px-6 py-16 text-slate-800 leading-relaxed">
+    <main className="max-w-2xl mx-auto px-6 py-16 leading-relaxed text-slate-800">
       <button
         onClick={onBack}
         className="mb-6 rounded-full border px-4 py-2 text-sm hover:bg-slate-100"
@@ -175,25 +174,58 @@ function Impressum({ onBack }: any) {
         ← Zurück zur Website
       </button>
 
-      <h1 className="text-3xl font-semibold mb-4">Impressum</h1>
+      <h1 className="text-3xl font-semibold mb-6">Impressum</h1>
 
-      <p>Angaben gemäß § 5 TMG:</p>
-
-      <p className="mt-4">
+      <h2 className="text-xl font-semibold mt-6">Angaben gemäß § 5 TMG</h2>
+      <p className="mt-2">
         Max Pehlivan <br />
-        Musterstraße 12 <br />
-        12345 Musterstadt
+        Arndtstrasse 20A <br />
+        33615 Bielefeld
       </p>
 
-      <p className="mt-4">
+      <h2 className="text-xl font-semibold mt-6">Kontakt</h2>
+      <p className="mt-2">
         E-Mail:{" "}
         <a href="mailto:max@schreibwerk-studio.de" className="underline">
           max@schreibwerk-studio.de
         </a>
       </p>
+
+      <h2 className="text-xl font-semibold mt-6">Umsatzsteuer-ID</h2>
+      <p className="mt-2">
+        Nach § 19 UStG (Kleinunternehmerregelung) wird keine Umsatzsteuer
+        ausgewiesen. Eine Umsatzsteuer-ID ist daher nicht erforderlich.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">Haftung für Inhalte</h2>
+      <p className="mt-2">
+        Als Diensteanbieter bin ich nach § 7 Abs. 1 TMG für eigene Inhalte auf
+        diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8
+        bis 10 TMG bin ich als Diensteanbieter jedoch nicht verpflichtet,
+        übermittelte oder gespeicherte fremde Informationen zu überwachen oder
+        nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit
+        hinweisen.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">Haftung für Links</h2>
+      <p className="mt-2">
+        Mein Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte
+        ich keinen Einfluss habe. Deshalb kann ich für diese fremden Inhalte auch
+        keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets
+        der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">Urheberrecht</h2>
+      <p className="mt-2">
+        Die durch mich erstellten Inhalte und Werke auf diesen Seiten
+        unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung,
+        Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
+        Urheberrechts bedürfen meiner schriftlichen Zustimmung.
+      </p>
     </main>
   );
 }
+
 
 /* ============================================================================
    Datenschutz
@@ -201,7 +233,7 @@ function Impressum({ onBack }: any) {
 
 function Datenschutz({ onBack }: any) {
   return (
-    <main className="max-w-2xl mx-auto px-6 py-16 text-slate-800 leading-relaxed">
+    <main className="max-w-2xl mx-auto px-6 py-16 leading-relaxed text-slate-800">
       <button
         onClick={onBack}
         className="mb-6 rounded-full border px-4 py-2 text-sm hover:bg-slate-100"
@@ -209,20 +241,116 @@ function Datenschutz({ onBack }: any) {
         ← Zurück zur Website
       </button>
 
-      <h1 className="text-3xl font-semibold mb-4">Datenschutzerklärung</h1>
+      <h1 className="text-3xl font-semibold mb-6">Datenschutzerklärung</h1>
 
-      <p>
-        Diese Website verarbeitet personenbezogene Daten ausschließlich zur
-        Beantwortung von Kontaktanfragen über das Formular.
+      <h2 className="text-xl font-semibold mt-6">1. Verantwortliche Stelle</h2>
+      <p className="mt-2">
+        Verantwortlich für die Datenverarbeitung auf dieser Website ist:
+        <br />
+        <br />
+        Max Pehlivan
+        <br />
+        [Straße, Hausnummer]
+        <br />
+        [PLZ] [Ort]
+        <br />
+        <br />
+        E-Mail:{" "}
+        <a href="mailto:max@schreibwerk-studio.de" className="underline">
+          max@schreibwerk-studio.de
+        </a>
       </p>
 
-      <p className="mt-4">
-        Eine Speicherung erfolgt nur so lange, wie die Bearbeitung der Anfrage
-        notwendig ist.
+      <h2 className="text-xl font-semibold mt-6">
+        2. Hosting und Server-Logfiles
+      </h2>
+      <p className="mt-2">
+        Diese Website wird bei einem externen Dienstleister gehostet
+        (z.&nbsp;B. Vercel Inc.). Beim Aufruf der Website werden automatisch
+        Server-Logfiles erfasst, darunter IP-Adresse, Datum und Uhrzeit des
+        Zugriffs, aufgerufene Seiten, übertragene Datenmengen sowie Angaben zu
+        Browser und Betriebssystem. Die Verarbeitung dieser Daten erfolgt auf
+        Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse
+        liegt in der Bereitstellung einer stabilen und sicheren Website.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">
+        3. Kontaktaufnahme per E-Mail oder Kontaktformular
+      </h2>
+      <p className="mt-2">
+        Wenn du mich per E-Mail oder über das Kontaktformular kontaktierst,
+        werden die von dir mitgeteilten Daten (z.&nbsp;B. Name, E-Mail-Adresse,
+        Inhalt der Nachricht) verarbeitet, um deine Anfrage zu bearbeiten und
+        zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO
+        (vorvertragliche bzw. vertragliche Maßnahmen) bzw. Art. 6 Abs. 1
+        lit. f DSGVO (berechtigtes Interesse an der Kommunikation mit
+        Interessierten).
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">4. Nutzung von Formspree</h2>
+      <p className="mt-2">
+        Für das Kontaktformular nutze ich den Dienst „Formspree“
+        (Formspree, Inc.). Wenn du das Formular absendest, werden die von dir
+        eingegebenen Daten (z.&nbsp;B. Name, E-Mail-Adresse, Nachricht) über
+        die Server von Formspree an mich weitergeleitet und dort per E-Mail
+        zugestellt. Formspree verarbeitet diese Daten in meinem Auftrag auf
+        Grundlage eines Auftragsverarbeitungsvertrags gemäß Art. 28 DSGVO.
+      </p>
+      <p className="mt-2">
+        Weitere Informationen zur Datenverarbeitung durch Formspree findest du
+        in der Datenschutzerklärung des Anbieters.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">5. Speicherdauer</h2>
+      <p className="mt-2">
+        Die im Rahmen der Kontaktaufnahme anfallenden personenbezogenen Daten
+        werden nur so lange gespeichert, wie es für die Bearbeitung deiner
+        Anfrage erforderlich ist oder wie es gesetzliche Aufbewahrungspflichten
+        vorsehen. Anschließend werden die Daten gelöscht.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">6. Rechtsgrundlagen</h2>
+      <p className="mt-2">
+        Soweit in dieser Datenschutzerklärung nichts anderes angegeben ist,
+        erfolgt die Verarbeitung deiner personenbezogenen Daten auf Grundlage
+        von Art. 6 Abs. 1 lit. b DSGVO (Vertrag / vorvertragliche Maßnahmen)
+        sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer
+        funktionierenden Website und der Kommunikation mit Interessierten).
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">7. Deine Rechte</h2>
+      <p className="mt-2">
+        Dir stehen im Rahmen der DSGVO insbesondere folgende Rechte zu:
+        Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO),
+        Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18
+        DSGVO), Datenübertragbarkeit (Art. 20 DSGVO) sowie Widerspruch gegen
+        bestimmte Verarbeitungen (Art. 21 DSGVO). Du kannst diese Rechte
+        jederzeit unter der oben genannten Kontaktadresse geltend machen.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">
+        8. Beschwerderecht bei der Aufsichtsbehörde
+      </h2>
+      <p className="mt-2">
+        Wenn du der Ansicht bist, dass die Verarbeitung deiner
+        personenbezogenen Daten gegen Datenschutzrecht verstößt, hast du das
+        Recht, dich bei einer zuständigen Datenschutzaufsichtsbehörde zu
+        beschweren (Art. 77 DSGVO).
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6">
+        9. Änderungen dieser Datenschutzerklärung
+      </h2>
+      <p className="mt-2">
+        Ich behalte mir vor, diese Datenschutzerklärung anzupassen, wenn sich
+        die rechtlichen Vorgaben oder die von mir durchgeführten
+        Datenverarbeitungen ändern. Es gilt jeweils die auf dieser Website
+        veröffentlichte aktuelle Version.
       </p>
     </main>
   );
 }
+
 
 /* ============================================================================
    Hauptseite
