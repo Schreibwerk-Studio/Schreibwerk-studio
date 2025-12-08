@@ -677,11 +677,6 @@ export default function SchreibwerkPage() {
               </li>
             </ul>
           </div>
-
-          <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-10 flex flex-col items-center text-center">
-            <div className="w-20 h-20 rounded-full bg-slate-100 flex items-center justify-center mb-4">
-              <User className="w-10 h-10 text-slate-500" />
-            </div>
             <h3 className="text-lg font-semibold mb-2">Mein Ansatz</h3>
             <div className="text-slate-600 space-y-3 text-sm">
               <div className="flex items-start gap-3 text-left">
