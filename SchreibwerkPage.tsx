@@ -49,7 +49,7 @@ const STEPS = [
   {
     step: 5,
     title: "Reflexion & Fit",
-    text: "Sicherheit, Feinschliff und Reflexion.",
+    text: "Sicherheit, Feinschliff und Letzte Passung.",
   },
   {
     step: 6,
