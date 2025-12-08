@@ -250,9 +250,9 @@ function Datenschutz({ onBack }: any) {
         <br />
         Max Pehlivan
         <br />
-        [Straße, Hausnummer]
+      Arndtstrasse 20A
         <br />
-        [PLZ] [Ort]
+        33615 Bielefeld
         <br />
         <br />
         E-Mail:{" "}
@@ -638,63 +638,57 @@ export default function SchreibwerkPage() {
         </div>
       </section>
 
-      {/* ÜBER MICH */}
+           {/* ÜBER MICH */}
       <section id="ueber-mich" className="mx-auto max-w-7xl px-6 pb-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Textspalte */}
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
               Über mich
             </h2>
             <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-              Ich bin Max – Sozialarbeiter B.A., systemischer Berater in Ausbildung
-              und Masterstudent der Erziehungswissenschaft (Schwerpunkt Beratung).
-              Ich begleite Studierende, die beim wissenschaftlichen Schreiben den
-              Überblick verloren haben – oder gar nicht erst ins Schreiben finden.
+              Ich bin Max – Sozialarbeiter B.A., systemischer Berater in
+              Ausbildung und Masterstudent der Erziehungswissenschaft
+              (Schwerpunkt Beratung). Ich begleite Studierende, die beim
+              wissenschaftlichen Schreiben den Überblick verloren haben – oder
+              gar nicht erst ins Schreiben finden.
             </p>
             <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-              Mein Ansatz ist einfach: weniger Druck, mehr Struktur. Ich helfe dir,
-              dein Denken zu sortieren, deine Argumentation zu schärfen und deinen
-              Schreibprozess so zu gestalten, dass er zu dir passt.
+              Mein Ansatz ist einfach: weniger Druck, mehr Struktur. Ich helfe
+              dir, dein Denken zu sortieren, deine Argumentation zu schärfen und
+              deinen Schreibprozess so zu gestalten, dass er zu dir passt.
             </p>
             <p className="mt-5 text-slate-600 leading-relaxed text-lg">
               Dabei geht es nicht um Perfektion, sondern um Klarheit und
-              Selbstwirksamkeit. Du lernst, deinen Text zu verstehen, zu steuern und
-              selbstbewusst zu vertreten – Schritt für Schritt.
+              Selbstwirksamkeit. Du lernst, deinen Text zu verstehen, zu steuern
+              und selbstbewusst zu vertreten – Schritt für Schritt.
             </p>
-            <ul className="mt-6 space-y-2 text-slate-600">
-              <li className="flex gap-2 items-start">
-                <GraduationCap className="mt-0.5 h-5 w-5 text-slate-500" />
-                Bachelor Soziale Arbeit, Masterstudent Erziehungswissenschaft ·
-                Schwerpunkt Beratung
+          </div>
+
+          {/* Mein Ansatz – ohne Avatar-Platzhalter */}
+          <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-10 flex flex-col text-left">
+            <h3 className="text-lg font-semibold mb-6 text-center md:text-left">
+              Mein Ansatz
+            </h3>
+
+            <ul className="space-y-4 text-slate-700">
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="mt-1 h-5 w-5 text-slate-700" />
+                <span>Systemische Haltung: Ressourcen- &amp; Lösungsorientierung</span>
               </li>
-              <li className="flex gap-2 items-start">
-                <BookOpenText className="mt-0.5 h-5 w-5 text-slate-500" />
-                Tutorat „Wissenschaftliches Arbeiten“
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="mt-1 h-5 w-5 text-slate-700" />
+                <span>Coaching statt Korrektorat: sauber argumentieren lernen</span>
               </li>
-              <li className="flex gap-2 items-start">
-                <PenTool className="mt-0.5 h-5 w-5 text-slate-500" />
-                Jahrelange Erfahrung im Schreiben von wissenschaftlichen Arbeiten
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="mt-1 h-5 w-5 text-slate-700" />
+                <span>Transparenz: kein Ghostwriting</span>
               </li>
             </ul>
           </div>
-            <h3 className="text-lg font-semibold mb-2">Mein Ansatz</h3>
-            <div className="text-slate-600 space-y-3 text-sm">
-              <div className="flex items-start gap-3 text-left">
-                <CheckCircle2 className="mt-0.5 h-5 w-5 text-slate-700" />
-                <span>Systemische Haltung: Ressourcen- & Lösungsorientierung</span>
-              </div>
-              <div className="flex items-start gap-3 text-left">
-                <CheckCircle2 className="mt-0.5 h-5 w-5 text-slate-700" />
-                <span>Coaching statt Korrektorat: sauber argumentieren lernen</span>
-              </div>
-              <div className="flex items-start gap-3 text-left">
-                <CheckCircle2 className="mt-0.5 h-5 w-5 text-slate-700" />
-                <span>Transparenz: kein Ghostwriting</span>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
+
 
       {/* FOOTER */}
       <footer className="border-t py-10 text-center text-sm text-slate-500">
