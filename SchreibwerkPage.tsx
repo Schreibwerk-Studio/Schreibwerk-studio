@@ -486,20 +486,20 @@ export default function SchreibwerkPage() {
             </div>
             <div className="p-6 text-slate-600 space-y-4 flex flex-col justify-between h-full">
               <div>
-     <div className="flex items-center gap-3">
-  <CheckCircle2 className="h-5 w-5 shrink-0 text-slate-700" />
+  <div className="flex items-start gap-3">
+  <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-slate-700" />
   <span>Klarheit & Struktur: von Thema zu tragfähiger Gliederung</span>
 </div>
-               <div className="flex items-center gap-3">
-  <CheckCircle2 className="h-5 w-5 shrink-0 text-slate-700" />
+     <div className="flex items-start gap-3">
+  <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-slate-700" />
   <span>Stil & Ausdruck: präzise, sauber, journal-tauglich</span>
 </div>
-                <div className="flex items-center gap-3">
-  <CheckCircle2 className="h-5 w-5 shrink-0 text-slate-700" />
+    <div className="flex items-start gap-3">
+  <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-slate-700" />
   <span>Systemisches Coaching: Denk- & Schreibprozesse stärken</span>
 </div>
-              <div className="flex items-center gap-3">
-  <CheckCircle2 className="h-5 w-5 shrink-0 text-slate-700" />
+<div className="flex items-start gap-3">
+  <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-slate-700" />
   <span>Konkrete To-Dos nach jeder Session</span>
 </div>
 
