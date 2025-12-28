@@ -686,42 +686,40 @@ export default function SchreibwerkPage() {
         Es geht nicht um Perfektion, sondern um Klarheit und Selbstwirksamkeit –
         Schritt für Schritt, auf Augenhöhe.
       </p>
-    </div>
 
-  </div>
-</section>
+      {/* Mein Ansatz Box (bleibt in der Textspalte, unter dem Text) */}
+      <div className="mt-8 rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10">
+        <h3 className="text-xl font-semibold mb-6 text-slate-900">
+          Mein Ansatz
+        </h3>
 
-    {/* Mein Ansatz Box */}
-    <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10">
-      <h3 className="text-xl font-semibold mb-6 text-slate-900">
-        Mein Ansatz
-      </h3>
+        <div className="space-y-6 text-slate-600">
+          <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+            <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+            <span>Systemische Haltung: Ressourcen- &amp; Lösungsorientierung</span>
+          </div>
 
-      <div className="space-y-6 text-slate-600">
-        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
-          <span>Systemische Haltung: Ressourcen- &amp; Lösungsorientierung</span>
-        </div>
+          <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+            <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+            <span>Coaching statt Korrektorat: sauber argumentieren lernen</span>
+          </div>
 
-        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
-          <span>Coaching statt Korrektorat: sauber argumentieren lernen</span>
-        </div>
+          <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+            <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+            <span>Transparenz: kein Ghostwriting</span>
+          </div>
 
-        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
-          <span>Transparenz: kein Ghostwriting</span>
-        </div>
-
-        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
-          <span>Konkrete To-Dos nach jeder Session</span>
+          <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+            <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+            <span>Konkrete To-Dos nach jeder Session</span>
+          </div>
         </div>
       </div>
     </div>
 
   </div>
 </section>
+
 
       {/* FOOTER */}
       <footer className="border-t py-10 text-center text-sm text-slate-500">
