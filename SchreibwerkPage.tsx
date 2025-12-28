@@ -654,9 +654,20 @@ export default function SchreibwerkPage() {
 <section id="ueber-mich" className="mx-auto max-w-7xl px-6 pb-20">
   <div className="grid md:grid-cols-2 gap-12 items-start">
 
+    {/* Bildspalte */}
+    <div className="order-1 md:order-2 flex justify-center md:justify-end">
+      <div className="w-full max-w-xs sm:max-w-sm rounded-3xl border border-slate-200 bg-white/70 p-2 shadow-sm">
+        <img
+          src="/images/Bewerbungsbild-1.jpg"
+          alt="Max"
+          className="aspect-square w-full rounded-2xl object-cover"
+        />
+      </div>
+    </div>
+
     {/* Textspalte */}
-    <div>
-      <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+    <div className="order-2 md:order-1">
+      <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-slate-900">
         Über mich
       </h2>
 
@@ -666,25 +677,16 @@ export default function SchreibwerkPage() {
       </p>
 
       <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-        Mein Ansatz ist einfach: weniger Druck, mehr Struktur.
+        Mein Ansatz ist einfach: weniger Druck, mehr Struktur. Ich begleite
+        Studierende dabei, ihr Denken zu sortieren, Argumente klar zu entwickeln
+        und wieder ins Schreiben zu kommen.
       </p>
 
       <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-        Dabei geht es nicht um Perfektion, sondern um Klarheit und Selbstwirksamkeit.
+        Es geht nicht um Perfektion, sondern um Klarheit und Selbstwirksamkeit –
+        Schritt für Schritt, auf Augenhöhe.
       </p>
     </div>
-
-    {/* Bildspalte */}
-    <div className="flex justify-center md:justify-end">
-      <img
-        src="/images/Bewerbungsbild-1.jpg"
-        alt="Max"
-        className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl border border-slate-200 shadow-sm"
-      />
-    </div>
-
-  </div>
-</section>
 
   </div>
 </section>
