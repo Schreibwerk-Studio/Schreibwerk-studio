@@ -678,32 +678,37 @@ export default function SchreibwerkPage() {
             </p>
           </div>
 
-          {/* Mein Ansatz */}
+        {/* Mein Ansatz */}
 <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10 flex flex-col text-left">
-  
   {/* Heading */}
   <h3 className="text-xl font-semibold mb-6 text-center md:text-left text-slate-900">
-<div className="space-y-6 text-slate-600">
-  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-    <span className="leading-relaxed">
-      Klarheit & Struktur: von Thema zu tragfähiger Gliederung
-    </span>
-  </div>
+    Mein Ansatz
+  </h3>
 
-  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-    <span className="leading-relaxed">
-      Stil & Ausdruck: präzise, sauber, journal-tauglich
-    </span>
-  </div>
+  <div className="space-y-6 text-slate-600">
+    <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+      <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+      <span className="leading-relaxed">
+        Systemische Haltung: Ressourcen- &amp; Lösungsorientierung
+      </span>
+    </div>
 
-  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-    <span className="leading-relaxed">
-      Systemisches Coaching: Denk- & Schreibprozesse stärken
-    </span>
+    <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+      <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+      <span className="leading-relaxed">
+        Coaching statt Korrektorat: sauber argumentieren lernen
+      </span>
+    </div>
+
+    <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+      <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+      <span className="leading-relaxed">
+        Transparenz: kein Ghostwriting
+      </span>
+    </div>
   </div>
+</div>
+
 
   <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
     <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
