@@ -670,8 +670,7 @@ export default function SchreibwerkPage() {
       </p>
 
       <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-        Dabei geht es nicht um Perfektion, sondern um Klarheit und
-        Selbstwirksamkeit.
+        Dabei geht es nicht um Perfektion, sondern um Klarheit und Selbstwirksamkeit.
       </p>
     </div>
 
@@ -683,6 +682,9 @@ export default function SchreibwerkPage() {
         className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl border border-slate-200 shadow-sm"
       />
     </div>
+
+  </div>
+</section>
 
   </div>
 </section>
