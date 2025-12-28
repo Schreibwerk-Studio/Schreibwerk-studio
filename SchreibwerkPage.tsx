@@ -650,76 +650,62 @@ export default function SchreibwerkPage() {
           </div>
         </div>
       </section>
+{/* ÜBER MICH */}
+<section id="ueber-mich" className="mx-auto max-w-7xl px-6 pb-20">
+  <div className="grid md:grid-cols-2 gap-12 items-start">
 
-           {/* ÜBER MICH */}
-      <section id="ueber-mich" className="mx-auto max-w-7xl px-6 pb-20">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Textspalte */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
-              Über mich
-            </h2>
-            <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-              Ich bin Max – Sozialarbeiter B.A., systemischer Berater in
-              Ausbildung und Masterstudent der Erziehungswissenschaft
-              (Schwerpunkt Beratung). Ich begleite Studierende, die beim
-              wissenschaftlichen Schreiben den Überblick verloren haben – oder
-              gar nicht erst ins Schreiben finden.
-            </p>
-            <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-              Mein Ansatz ist einfach: weniger Druck, mehr Struktur. Ich helfe
-              dir, dein Denken zu sortieren, deine Argumentation zu schärfen und
-              deinen Schreibprozess so zu gestalten, dass er zu dir passt.
-            </p>
-            <p className="mt-5 text-slate-600 leading-relaxed text-lg">
-              Dabei geht es nicht um Perfektion, sondern um Klarheit und
-              Selbstwirksamkeit. Du lernst, deinen Text zu verstehen, zu steuern
-              und selbstbewusst zu vertreten – Schritt für Schritt.
-            </p>
-          </div>
+    {/* Textspalte */}
+    <div>
+      <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
+        Über mich
+      </h2>
 
-        {/* Mein Ansatz */}
-<div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10 flex flex-col text-left">
-  {/* Heading */}
-  <h3 className="text-xl font-semibold mb-6 text-center md:text-left text-slate-900">
-    Mein Ansatz
-  </h3>
+      <p className="mt-5 text-slate-600 leading-relaxed text-lg">
+        Ich bin Max – Sozialarbeiter B.A., systemischer Berater in Ausbildung
+        und Masterstudent der Erziehungswissenschaft (Schwerpunkt Beratung).
+      </p>
 
-  <div className="space-y-6 text-slate-600">
-    <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-      <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-      <span className="leading-relaxed">
-        Systemische Haltung: Ressourcen- &amp; Lösungsorientierung
-      </span>
+      <p className="mt-5 text-slate-600 leading-relaxed text-lg">
+        Mein Ansatz ist einfach: weniger Druck, mehr Struktur.
+      </p>
+
+      <p className="mt-5 text-slate-600 leading-relaxed text-lg">
+        Dabei geht es nicht um Perfektion, sondern um Klarheit und
+        Selbstwirksamkeit.
+      </p>
     </div>
 
-    <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-      <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-      <span className="leading-relaxed">
-        Coaching statt Korrektorat: sauber argumentieren lernen
-      </span>
+    {/* Mein Ansatz Box */}
+    <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10">
+      <h3 className="text-xl font-semibold mb-6 text-slate-900">
+        Mein Ansatz
+      </h3>
+
+      <div className="space-y-6 text-slate-600">
+        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+          <span>Systemische Haltung: Ressourcen- &amp; Lösungsorientierung</span>
+        </div>
+
+        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+          <span>Coaching statt Korrektorat: sauber argumentieren lernen</span>
+        </div>
+
+        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+          <span>Transparenz: kein Ghostwriting</span>
+        </div>
+
+        <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+          <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1 shrink-0" />
+          <span>Konkrete To-Dos nach jeder Session</span>
+        </div>
+      </div>
     </div>
 
-    <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-      <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-      <span className="leading-relaxed">
-        Transparenz: kein Ghostwriting
-      </span>
-    </div>
   </div>
-</div>
-
-
-  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
-    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
-    <span className="leading-relaxed">
-      Konkrete To-Dos nach jeder Session
-    </span>
-  </div>
-</div>
-
-
-
+</section>
 
       {/* FOOTER */}
       <footer className="border-t py-10 text-center text-sm text-slate-500">
