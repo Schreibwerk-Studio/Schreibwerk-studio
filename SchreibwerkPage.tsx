@@ -683,33 +683,36 @@ export default function SchreibwerkPage() {
   
   {/* Heading */}
   <h3 className="text-xl font-semibold mb-6 text-center md:text-left text-slate-900">
-    Mein Ansatz
-  </h3>
+<div className="space-y-6 text-slate-600">
+  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+    <span className="leading-relaxed">
+      Klarheit & Struktur: von Thema zu tragfähiger Gliederung
+    </span>
+  </div>
 
-  {/* Liste */}
-  <ul className="space-y-4 text-slate-700">
-    <li className="flex items-start gap-3">
-      <CheckCircle2 className="h-5 w-5 shrink-0 mt-1 text-slate-700" />
-      <span className="leading-relaxed">
-        Systemische Haltung: Ressourcen- &amp; Lösungsorientierung
-      </span>
-    </li>
+  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+    <span className="leading-relaxed">
+      Stil & Ausdruck: präzise, sauber, journal-tauglich
+    </span>
+  </div>
 
-    <li className="flex items-start gap-3">
-      <CheckCircle2 className="h-5 w-5 shrink-0 mt-1 text-slate-700" />
-      <span className="leading-relaxed">
-        Coaching statt Korrektorat: sauber argumentieren lernen
-      </span>
-    </li>
+  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+    <span className="leading-relaxed">
+      Systemisches Coaching: Denk- & Schreibprozesse stärken
+    </span>
+  </div>
 
-    <li className="flex items-start gap-3">
-      <CheckCircle2 className="h-5 w-5 shrink-0 mt-1 text-slate-700" />
-      <span className="leading-relaxed">
-        Transparenz: kein Ghostwriting
-      </span>
-    </li>
-  </ul>
+  <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start">
+    <CheckCircle2 className="h-5 w-5 text-slate-700 mt-1" />
+    <span className="leading-relaxed">
+      Konkrete To-Dos nach jeder Session
+    </span>
+  </div>
 </div>
+
 
 
 
