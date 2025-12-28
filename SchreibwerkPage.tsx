@@ -678,29 +678,39 @@ export default function SchreibwerkPage() {
             </p>
           </div>
 
-          {/* Mein Ansatz – ohne Avatar-Platzhalter */}
-          <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-10 flex flex-col text-left">
-            <h3 className="text-lg font-semibold mb-6 text-center md:text-left">
-              Mein Ansatz
-            </h3>
+          {/* Mein Ansatz */}
+<div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10 flex flex-col text-left">
+  
+  {/* Heading */}
+  <h3 className="text-xl font-semibold mb-6 text-center md:text-left text-slate-900">
+    Mein Ansatz
+  </h3>
 
-            <ul className="space-y-4 text-slate-700">
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="mt-1 h-5 w-5 text-slate-700" />
-                <span>Systemische Haltung: Ressourcen- &amp; Lösungsorientierung</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="mt-1 h-5 w-5 text-slate-700" />
-                <span>Coaching statt Korrektorat: sauber argumentieren lernen</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="mt-1 h-5 w-5 text-slate-700" />
-                <span>Transparenz: kein Ghostwriting</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+  {/* Liste */}
+  <ul className="space-y-4 text-slate-700">
+    <li className="flex items-start gap-3">
+      <CheckCircle2 className="h-5 w-5 shrink-0 mt-1 text-slate-700" />
+      <span className="leading-relaxed">
+        Systemische Haltung: Ressourcen- &amp; Lösungsorientierung
+      </span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <CheckCircle2 className="h-5 w-5 shrink-0 mt-1 text-slate-700" />
+      <span className="leading-relaxed">
+        Coaching statt Korrektorat: sauber argumentieren lernen
+      </span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <CheckCircle2 className="h-5 w-5 shrink-0 mt-1 text-slate-700" />
+      <span className="leading-relaxed">
+        Transparenz: kein Ghostwriting
+      </span>
+    </li>
+  </ul>
+</div>
+
 
 
       {/* FOOTER */}
