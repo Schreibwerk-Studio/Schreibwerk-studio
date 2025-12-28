@@ -675,6 +675,18 @@ export default function SchreibwerkPage() {
       </p>
     </div>
 
+    {/* Bildspalte */}
+    <div className="flex justify-center md:justify-end">
+      <img
+        src="/images/Bewerbungsbild-1.jpg"
+        alt="Max"
+        className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl border border-slate-200 shadow-sm"
+      />
+    </div>
+
+  </div>
+</section>
+
     {/* Mein Ansatz Box */}
     <div className="rounded-3xl shadow-sm border border-slate-200 bg-white/70 p-6 md:p-10">
       <h3 className="text-xl font-semibold mb-6 text-slate-900">
