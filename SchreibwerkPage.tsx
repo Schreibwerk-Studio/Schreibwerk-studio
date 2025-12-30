@@ -655,15 +655,17 @@ export default function SchreibwerkPage() {
   <div className="grid md:grid-cols-2 gap-12 items-start">
 
     {/* Bildspalte */}
-    <div className="order-1 md:order-2 flex justify-center md:justify-end">
-      <div className="w-full max-w-xs sm:max-w-sm rounded-3xl border border-slate-200 bg-white/70 p-2 shadow-sm">
-        <img
-          src="/images/Bewerbungsbild-1.jpg"
-          alt="Max"
-          className="aspect-square w-full rounded-2xl object-cover"
-        />
-      </div>
+<div className="order-1 md:order-2 flex justify-center md:justify-end">
+  <div className="w-full max-w-[260px] sm:max-w-[300px] rounded-[28px] border border-slate-200 bg-white/70 p-2 shadow-sm">
+    <div className="overflow-hidden rounded-[22px] bg-slate-100">
+      <img
+        src="/images/Bewerbungsbild-1.jpg"
+        alt="Max"
+        className="w-full h-auto object-contain"
+      />
     </div>
+  </div>
+</div>
 
     {/* Textspalte */}
     <div className="order-2 md:order-1">
