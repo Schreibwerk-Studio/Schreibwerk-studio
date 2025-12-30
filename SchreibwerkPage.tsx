@@ -433,12 +433,16 @@ export default function SchreibwerkPage() {
         </motion.p>
 
         <motion.div {...fadeUp(0.2)} className="mt-10 flex gap-4">
-          <button
-            onClick={() => setView("kontakt")}
-            className="rounded-full bg-slate-900 text-white px-8 py-3 hover:bg-black"
-          >
-            Erstgespräch <ArrowRight className="inline-block ml-2" size={16} />
-          </button>
+         <button
+  onClick={() => setView("kontakt")}
+  className="rounded-full bg-slate-900 text-white px-8 py-3 hover:bg-black"
+>
+  Erstgespräch
+  <ArrowRight
+    className="hidden md:inline-block ml-2"
+    size={16}
+  />
+</button>
 
           <button
             onClick={() => scrollToId("angebot")}
