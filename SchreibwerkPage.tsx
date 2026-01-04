@@ -428,8 +428,8 @@ export default function SchreibwerkPage() {
           {...fadeUp(0.1)}
           className="text-xl text-slate-600 max-w-xl mt-4"
         >
-          1:1-Coaching für Haus- und Bachelorarbeiten
-Struktur, roter Faden und sauberes wissenschaftliches Schreiben.
+          1:1-Coaching für Haus- und Bachelorarbeiten. Mit
+Struktur, rotem Faden und sauberem wissenschaftliches Schreiben.
         </motion.p>
 
         <motion.div {...fadeUp(0.2)} className="mt-10 flex gap-4">
