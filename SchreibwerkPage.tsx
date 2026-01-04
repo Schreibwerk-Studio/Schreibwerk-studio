@@ -437,7 +437,7 @@ Struktur, rotem Faden und sauberem wissenschaftliches Schreiben.
   onClick={() => setView("kontakt")}
   className="rounded-full bg-slate-900 text-white px-8 py-3 hover:bg-black"
 >
-  Erstgespräch
+  Kostenloses Erstgespräch
   <ArrowRight
     className="hidden md:inline-block ml-2"
     size={16}
