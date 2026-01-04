@@ -101,7 +101,7 @@ function ContactView({ onBack }: any) {
 
       <h1 className="text-3xl font-semibold mb-4">Kontakt</h1>
       <p className="text-slate-600 mb-8">
-        Kein Risiko! Schreib mir kurz, wobei ich dich unterstützen kann und wir klären alles weitere in einem Kostenlosen Erstgespräch über Zoom
+        Kein Risiko! Schreib mir kurz, wobei ich dich unterstützen kann und wir klären alles weitere in einem kostenlosen Erstgespräch über Zoom.
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-6">
